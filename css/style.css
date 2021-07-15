@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body {
+    background: url(../img/app_back.jpg);
+    font-size: 14px;
+    font-family: "Noto Sans Japanese", "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.wrap {
+    margin: 0px auto;
+    width: 550px;
+}
+
+.title {
+    margin:70px auto 0px auto;
+    text-align:center;
+    width: 100%;
+}
+.main {
+    margin: 60px auto;
+    width: 100%;
+}
+
+.base {
+    background: #004679;
+    border-radius: 4px;
+    padding: 20px;
+    width: 100%;
+}
+
+.display-wrap {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    margin: 0 auto;
+    width: 97%;
+}
+
+.display-wrap textarea {
+    resize: none;
+}
+
+.display-sym textarea {
+    background: none;
+    border: none;
+    border-bottom:1px solid #999;
+    font-size: 18px;
+    font-weight: 600;
+    height: 25px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: right;
+    width: 99%;
+}
+
+.display-num{
+    margin-top:15px;
+}
+
+.display-num textarea {
+    background: none;
+    border: none;
+    font-size: 55px;
+    height: 55px;
+    overflow: hidden;
+    text-align: right;
+    width: 99%;
+}
+
+.key-btn-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7px 0;
+}
+
+.key-btn-row > .num {
+    background: #dfd4be; 
+}
+
+.key-btn-row > button {
+    background: #ededed;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 30px;
+    height: 80px;
+    width: 20%;
+}
+
+.key-btn-row > button:hover {
+    background: #aeaeae;
+}
+
+.key-btn-row > .arith:hover {
+    background: #c0542d;
+}
